@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    width: 900px;
+}
+
+h1 {
+    
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.div {
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(#F1096B,#1E00D6)
+}
+
+#rodape {
+    color: bisque;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(#F1096B,#1E00D6)
+}
