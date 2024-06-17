@@ -1,5 +1,10 @@
-if (82 <= 7) {
-	document.write ('Entrou dentro do bloco if (Verdadeiro)')
+var nota = prompt('Escreva a nota do aluno')
+var media = 7
+
+if (nota >= media) {
+	document.write('Aprovado')
+    
 } else {
-	document.write ('Entrou dentro do bloco else (falso)')
+	document.write('Reprovado')
+
 }
