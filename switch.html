@@ -6,23 +6,24 @@
     <title>treinando</title>
     <script>
 
-        var idade = prompt('Digite a idade');
+        var opcao = prompt('Digite seu numero')
 
-        if(idade >= 0 && idade < 15){
-        alert('Criança');
+        switch (opcao) {
+            case 1:
+                //trecho de codigo que será executado
+                document.write('case1')
+                break
+            
+            case 2:
+                //trecho de codigo que será executado
+                document.write('case2')
+                break
+            
+            default:
+                //trecho de codigo que será executado
+                document.write('case3')
+                break
         }
-
-        if(idade >= 15 && idade < 30){
-        alert('Jovem');
-        }
-
-        if(idade >= 30 && idade < 60){
-        alert('Adulto');
-        }
-
-        if(idade >= 60){
-        alert('Idoso');
-        } 
 
     </script>
 </head>
